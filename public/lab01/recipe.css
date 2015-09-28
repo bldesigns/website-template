@@ -1,6 +1,10 @@
 body {
 	background:goldenrod;
 }
+img {
+	position: center;
+	vertical-align: top;
+}
 h4 {
   color: brown;
 }
