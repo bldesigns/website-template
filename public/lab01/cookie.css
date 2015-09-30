@@ -6,5 +6,11 @@ img {
 	vertical-align: top;
 }
 h4 {
-  color: brown;
+	color: brown;
+}
+a {
+	color: #900;
+}
+div {
+	color: #877;
 }
