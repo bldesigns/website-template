@@ -4,15 +4,30 @@ body {
   border-top-style: solid;
   border-bottom-style: solid;
   border-width: 3px;
-  font-family: arial, helvetica;
+  font-family: arial;
   width: 640px;
 }
-h1, h2 {
+
+h1 {
   text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  font-family: helvetica;
+  text-align: left;
 }
 
 img {
   border: 1px solid black;
+}
+
+.main {
+  width: 600px;
+  padding: 15px;
 }
 
 #onPage {
@@ -34,30 +49,71 @@ img {
 #sitemap {
   text-align: center;
 }
+
 #info {
   float: left;
-  max-width: 430px;
+  text-align: left;
+  margin-left: 15px;
+  max-width: 380px;
   max-height: 300px;
 }
 
-#profilepic{
+#profilepic {
   float: right;
-  width: 210px;
+  width: 190px;
   margin-left: -430px;
+}
+
+#profileimage {
+  height: 200px;
 }
 
 #social {
   text-align: center;
   clear: both;
+  color: black;
+}
+
+#footer {
+  clear: both;
+}
+
+#position {
+  display: inline;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#company {
+  display: inline;
+  font-size: 14px;
+}
+
+#period {
+  display: inline;
+  font-size: 12px;
+}
+
+#desc {
+  padding: 0px;
+}
+
+#portfolioImage {
+  margin: 10px;
+  padding: 0px;
+  width: 500px;
 }
 
 a:link {
-  color: black
+  color: black;
+  font-weight: bold;
 }
 
 a:visited {
   color: black
 }
 
-
-  
+p {
+  font-family: georgia;
+  padding: 0px;
+}
