@@ -5,9 +5,14 @@ body {
   border-bottom-style: solid;
   border-width: 3px;
   font-family: arial, helvetica;
+  width: 640px;
 }
 h1, h2 {
   text-align: center;
+}
+
+img {
+  border: 1px solid black;
 }
 
 #onPage {
@@ -20,24 +25,37 @@ h1, h2 {
 
 #hlink {
   display: inline;
-  font-style: underline;
   font-weight: bold;
   text-align: center;
+  text-decoration: underline;
+  color: black;
 }
 
 #sitemap {
   text-align: center;
 }
+#info {
+  float: left;
+  max-width: 430px;
+  max-height: 300px;
+}
+
+#profilepic{
+  float: right;
+  width: 210px;
+  margin-left: -430px;
+}
 
 #social {
   text-align: center;
+  clear: both;
 }
 
-a.link {
+a:link {
   color: black
 }
 
-a.visited {
+a:visited {
   color: black
 }
 
