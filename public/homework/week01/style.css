@@ -6,19 +6,19 @@ body {
   border-width: 3px;
   font-family: arial;
   width: 640px;
+  margin: auto;
 }
 
 h1 {
   text-align: center;
 }
 
-h2 {
+h2, h3 {
   text-align: left;
 }
 
 h3 {
   font-family: helvetica;
-  text-align: left;
 }
 
 img {
@@ -30,27 +30,25 @@ img {
   padding: 15px;
 }
 
-#onPage {
-  display: inline;
+.onPage {
   font-style: italic;
   font-weight: bold;
   color: black;
   text-align: center;
 }
 
-#hlink {
-  display: inline;
+.hlink {
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
   color: black;
 }
 
-#sitemap {
+.sitemap {
   text-align: center;
 }
 
-#info {
+.info {
   float: left;
   text-align: left;
   margin-left: 15px;
@@ -58,47 +56,44 @@ img {
   max-height: 300px;
 }
 
-#profilepic {
+.profilepic {
   float: right;
   width: 190px;
   margin-left: -430px;
 }
 
-#profileimage {
+.profileimage {
   height: 200px;
 }
 
-#social {
+.social {
   text-align: center;
   clear: both;
   color: black;
 }
 
-#footer {
+.footer {
   clear: both;
 }
 
-#position {
-  display: inline;
+.position {
   font-weight: bold;
   font-style: italic;
 }
 
-#company {
-  display: inline;
+.company {
   font-size: 14px;
 }
 
-#period {
-  display: inline;
+.period {
   font-size: 12px;
 }
 
-#desc {
+.desc {
   padding: 0px;
 }
 
-#portfolioImage {
+.portfolioImage {
   margin: 10px;
   padding: 0px;
   width: 500px;
@@ -116,4 +111,9 @@ a:visited {
 p {
   font-family: georgia;
   padding: 0px;
+}
+
+.emphasis {
+  font-weight: bold;
+  font-style: italic;
 }
