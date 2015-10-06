@@ -1,12 +1,15 @@
 body {
-	background-color: #E6E6E6;
-	color: black;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-width: 3px;
+  background-color: #E6E6E6;
+  color: black;
   font-family: arial;
   width: 640px;
   margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 3px;
 }
 
 h1 {
@@ -21,30 +24,31 @@ h3 {
   font-family: helvetica;
 }
 
+p {
+  font-family: georgia;
+}
+
 img {
   border: 1px solid black;
 }
 
 .main {
-  width: 600px;
-  padding: 15px;
+  width: 620px;
+  padding: 5px;
+  background: #E6E6E6;
 }
 
-.onPage {
+.bolditalic {
   font-style: italic;
   font-weight: bold;
-  color: black;
-  text-align: center;
 }
 
 .hlink {
   font-weight: bold;
-  text-align: center;
   text-decoration: underline;
-  color: black;
 }
 
-.sitemap {
+.sitemap, .social {
   text-align: center;
 }
 
@@ -59,26 +63,15 @@ img {
 .profilepic {
   float: right;
   width: 190px;
-  margin-left: -430px;
+  
 }
 
 .profileimage {
   height: 200px;
 }
 
-.social {
-  text-align: center;
-  clear: both;
-  color: black;
-}
-
 .footer {
   clear: both;
-}
-
-.position {
-  font-weight: bold;
-  font-style: italic;
 }
 
 .company {
@@ -99,21 +92,11 @@ img {
   width: 500px;
 }
 
-a:link {
+a:link, a:visited {
   color: black;
   font-weight: bold;
 }
 
-a:visited {
-  color: black
-}
-
-p {
-  font-family: georgia;
-  padding: 0px;
-}
-
-.emphasis {
-  font-weight: bold;
-  font-style: italic;
+a:hover {
+  color:slategrey;
 }
