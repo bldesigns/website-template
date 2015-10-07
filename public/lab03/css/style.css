@@ -1,0 +1,12 @@
+div {
+	margin: 10px 20px 30px 40px;
+	border: 5px solid block;
+}
+
+p {
+	background-color: yellow;
+}
+
+p {
+	margin: 100px 50px;
+}
