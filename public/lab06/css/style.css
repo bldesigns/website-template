@@ -1,23 +1,3 @@
-/*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
-*/
-
-
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Box Model Hack */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-}
-
-/* Clear fix hack */
 .clearfix:after {
      content: ".";
      display: block;
@@ -27,54 +7,156 @@ Developer @GA in NYC
      height: 0;
 }
 
-.clear {
-  clear: both;
-}
+.container {
+	background-color: white;
+	margin: 0 auto;
+	width: 664px;
+	font-family: helvetica;
+	color: white;
+	padding: 1px;
+	border:1px solid black;
 
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
-body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-}
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-/* Center the container */
-#container {
-  width: 960px;
-  margin: auto;
 }
 
 header {
+	background-color: black;
+	height: 6em;
+}
 
+nav {
+	background-color: black;
+	width:100%;
+	float: right;
+	margin: 0.5em 0;
+}
+
+.logo {
+	font-family: garamond;
+	color: yellow;
+	font-size: 2em;
+	width: 100%;
+	padding: 0.5em 0 0 0.5em;
+}
+
+.logo-nav {
+	font-size: 1em;
+	margin: 0 0.5em;
+	float: right;
+
+}
+
+.slogan {
+	background-color: #C6C6C6;
+	border-color: yellow;
+	border-top: yellow solid 0.15em;
+	
+	color: black;
+	font-weight: bold;
+	font-size: 1.5em;
+	font-style: italic;
+	text-align: center;
+	
+	width: 100%;
+	padding: 1em 0; /* how can I avoid using padding? */
+}
+
+.strike {
+	color: grey;
+	text-decoration: line-through;
+}
+
+.yellow-underline {
+	border-bottom: solid yellow 0.1em;
+}
+
+.main-content {
+	background-image: url(../images/coworking.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	width: 100%;
+	height: 30em;
+	float: left;
+	box-shadow: inset 0 0 5px black;
+}
+
+.content {
+	/* this will only make element transparent */
+	background-color: rgba(255,255,255,0.8); 
+	width: 35%;
+	height: 80%;
+	float: right;
+	margin: 1.5em;
+	padding: 1em;
+	box-shadow: 0 0 5px black;
+}
+
+div.content {
+	font-family: arial;
+	color: black;
+}
+
+.subcontent {
+	background-color: white;
+	color: black;
+	width: 100%;
+	height: 15em;
+}
+
+h2.subcontent {}
+
+.sub-left {
+	margin-left: 0.75em;
+	float: left;
+	width: 26%;
+	padding: 0 1.5em;
+	border-right: #F2F2F2 solid 1px;
+}
+
+.sub-center {
+	float: left;
+	width: 25%;
+	padding: 0 1.5em;
+	border-right: #F2F2F2 solid 1px;
+}
+
+.sub-right {
+	padding: 0 1.5em;
+	float: left;
+	width: 25%;
+}
+
+.foot {
+	background-color: black;
 }
 
 footer {
-
+	font-family: helvetica;
+	width: 100%;
+	padding: 1em;
+}
+/**************
+	BUTTONS
+***************/
+.create-button, .grey-button {
+	font-family: "arial narrow";
+	font-weight: bold;
+	text-align: center;
+	font-size: 0.9em;
+	width: 10em;
+	border-radius: 0.25em;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+.create-button {
+	background-color: yellow;
+	padding: 0.5em;
+	box-shadow: 0 4px 2px -2px #C0C700;
+	margin-left: 2.5em;
+	margin-top: 11em;
+}
 
-
-
+.grey-button {
+	background-color: #D3D3D3;
+	padding: 0.5em;
+	box-shadow: 0 4px 2px -2px #838383;
+}
 
