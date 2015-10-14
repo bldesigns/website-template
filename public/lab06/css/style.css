@@ -39,10 +39,14 @@ nav {
 }
 
 .logo-nav {
-	font-size: 1em;
+	font-size: 0.85em;
+	font-weight: bold;
 	margin: 0 0.5em;
 	float: right;
+}
 
+.nav-edge {
+	padding-right: 1em;
 }
 
 .slogan {
@@ -133,6 +137,7 @@ footer {
 	font-family: helvetica;
 	width: 100%;
 	padding: 1em;
+	font-size: 0.85em;
 }
 /**************
 	BUTTONS
