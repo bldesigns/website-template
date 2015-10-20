@@ -245,6 +245,10 @@ a:visited .head-link{
   color: #F9E42E;
 }
 
+a:link .head-link{
+  color: #F9E42E;
+}
+
 a:hover .head-link{
   color: lightgrey;
 }
