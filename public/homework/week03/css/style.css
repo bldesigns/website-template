@@ -84,19 +84,19 @@ nav {
 
 .articles-column {
   max-width: 43.75em;
-  margin-left: 8em;
+  margin-left: 10em;
   margin-bottom: 3em;
   float: left;
 }
 
 .gutter {
-  max-width: 1.25em;
+  width: 20px;
   float: left;
 }
 
 .aside-column {
   max-width: 15em;
-  margin-right: 8em;
+  margin-right: 10em;
   float: right;
 }
 
