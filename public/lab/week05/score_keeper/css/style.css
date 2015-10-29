@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Calculator';
+    src:url('Calculator.ttf.woff') format('woff'),
+        url('Calculator.ttf.svg#Calculator') format('svg'),
+        url('Calculator.ttf.eot'),
+        url('Calculator.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 3em;
+  padding: 0;
+}
