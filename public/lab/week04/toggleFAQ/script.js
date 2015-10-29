@@ -1,0 +1,9 @@
+$('#question1').click(function(){
+  $('#answer1').toggle();
+});
+$('#question2').click(function(){
+  $('#answer2').toggle();
+});
+$('#question3').click(function(){
+  $('#answer3').toggle();
+});
