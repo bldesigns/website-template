@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Week 6 Lab - Weather App</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<div id="container">
+	<h1>Weather App</h1>
+
+	<p>Enter in the temperature to convert to Celsius</p>
+	<form id="convertor">
+		<p>Select the temperature unit
+			<input type="radio" name="temperatureUnit" value="celsius" checked>&deg;C</input>
+			<input type="radio" name="temperatureUnit" value="fahrenheit">&deg;F</input>
+		</p>
+		<p><input id="temperature" /></p>
+		<input type="submit" value="Convert" />
+
+	</form>
+
+	<p><span id="celsius"></span>&deg;C</p>
+
+	</div>
+	<script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
