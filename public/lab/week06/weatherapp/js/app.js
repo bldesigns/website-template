@@ -25,16 +25,22 @@ function convertTemp() {
 
 function changeBackground () {
 	if (celsius < 0) {
-		$('body').css('background-color','#3300FF');
+		$('body').css('background-color','#3300FF'); //blue
+		$('body').css('color','white');
 	} else if (celsius < 11) {
-		$('body').css('background-color','#99CCFF');
+		$('body').css('background-color','#99CCFF'); //light blue
+		$('body').css('color','white');
 	} else if (celsius < 21) {
-		$('body').css('background-color','#FFFF00');
+		$('body').css('background-color','#FFFF00'); //yellow
+		$('body').css('color','grey');
 	} else if (celsius < 31) {
-		$('body').css('background-color','#FF9900');
+		$('body').css('background-color','#FF9900'); //orange
+		$('body').css('color','black');
 	} else if (celsius < 41) {
-		$('body').css('background-color','#FF6600');
+		$('body').css('background-color','#FF6600'); //dark orange
+		$('body').css('color','black');
 	} else {
-		$('body').css('background-color','#FF0000');
+		$('body').css('background-color','#FF0000'); //red
+		$('body').css('color','black');
 	}
 }
