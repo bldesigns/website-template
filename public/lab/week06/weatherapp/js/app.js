@@ -1,3 +1,6 @@
+/* variables 
+	may be better to use temperatureType, inputValue
+*/
 var temperature = $('#temperature').val();
 var celsius = 0;
 var fahrenheit = 0;
