@@ -1,0 +1,26 @@
+@media screen and (min-width:600px) {
+	body { 
+		color: blue;
+	}
+	.hide-for-mobile {
+		display: block;
+	}
+	.show-for-mobile {
+		display: none;
+	}
+}
+
+@media screen and (max-width:599px) {
+	body { 	
+		color: red;
+	}
+	.hide-for-mobile {
+		display: none;
+	}
+	.show-for-mobile {
+		display: block;
+	}
+}
+body {
+	padding: 16px;
+}

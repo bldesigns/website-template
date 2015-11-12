@@ -1,0 +1,158 @@
+body {
+	font-size:5em;
+}
+
+@media only screen and (min-width: 480px) {
+	.content::before {
+		content: "A";
+	}
+}
+
+@media only screen and (min-width: 510px) {
+	.content::before {
+		content: "B";
+	}
+}
+
+@media only screen and (min-width: 540px) {
+	.content::before {
+		content: "C";
+	}
+}
+
+@media only screen and (min-width: 570px) {
+	.content::before {
+		content: "D";
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.content::before {
+		content: "E";
+	}
+}
+
+@media only screen and (min-width: 630px) {
+	.content::before {
+		content: "F";
+	}
+}
+
+@media only screen and (min-width: 660px) {
+	.content::before {
+		content: "G";
+	}
+}
+
+@media only screen and (min-width: 690px) {
+	.content::before {
+		content: "H";
+	}
+}
+
+@media only screen and (min-width: 720px) {
+	.content::before {
+		content: "I";
+	}
+}
+
+@media only screen and (min-width: 750px) {
+	.content::before {
+		content: "J";
+	}
+}
+
+@media only screen and (min-width: 780px) {
+	.content::before {
+		content: "K";
+	}
+}
+
+@media only screen and (min-width: 810px) {
+	.content::before {
+		content: "L";
+	}
+}
+
+@media only screen and (min-width: 840px) {
+	.content::before {
+		content: "M";
+	}
+}
+
+@media only screen and (min-width: 870px) {
+	.content::before {
+		content: "N";
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.content::before {
+		content: "O";
+	}
+}
+
+@media only screen and (min-width: 930px) {
+	.content::before {
+		content: "P";
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.content::before {
+		content: "Q";
+	}
+}
+
+@media only screen and (min-width: 990px) {
+	.content::before {
+		content: "R";
+	}
+}
+
+@media only screen and (min-width: 1020px) {
+	.content::before {
+		content: "S";
+	}
+}
+
+@media only screen and (min-width: 1050px) {
+	.content::before {
+		content: "T";
+	}
+}
+
+@media only screen and (min-width: 1080px) {
+	.content::before {
+		content: "U";
+	}
+}
+
+@media only screen and (min-width: 1110px) {
+	.content::before {
+		content: "V";
+	}
+}
+
+@media only screen and (min-width: 1140px) {
+	.content::before {
+		content: "W";
+	}
+}
+
+@media only screen and (min-width: 1170px) {
+	.content::before {
+		content: "X";
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.content::before {
+		content: "Y";
+	}
+}
+@media only screen and (min-width: 1230px) {
+	.content::before {
+		content: "Z";
+	}
+}
