@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<form id="course-application" class="form-horizontal container">
+	<div class="form-group">
+		<h3>Your Contact Details</h3>
+		<div class="form-group">
+			<label for="firstname">Your Name</label>
+			<input type="text" class="form-control" id="name" placeholder="First" value="firstname">
+			<input type="text" class="form-control" placeholder="Last" value="lastname">
+		</div>
+		<div class="form-group">
+		<label for="phonenumber">Phone Number</label>
+		<input type="number" value="phone1"> &hyphen; 
+		<input type="number" value="phone2"> &hyphen; 
+		<input type="number" value="phone3">
+
+		<label>Address</label>
+		<span><input type="text" placeholder="Street Address" value="street"></span>
+		<div><input type="text" placeholder="Address Line 2" value="addressLine2"><div>
+		<div>
+			<input type="text" placeholder="City" value="city">
+			<input type="state" placeholder="State" value="state">
+			<input type="postcode" placeholder="Postal Code" value="postcode">
+		</div>
+	</div>
+	<div class="row">
+		<label>Skills & Interests</label>
+		<div id="Course">
+			<span>Course</span>
+			<select>
+				<option selected="">Select Course</option>
+				<option>FEWD</option>
+				<option>Mobile Development</option>
+				<option>Visual Design</option>
+			</select>
+		<div id="pastExp">
+			<span>Past Experience</span>
+			<textarea id="pastExperience"></textarea>
+		</div>
+	</div>
+	<div class="section3">
+		<h2>Anything Else?</h2>
+		<div id="Referral">
+			<span>Referral</span>
+			<select>
+				<option selected="">None</option>
+				<option>Yang</option>
+				<option>Stella</option>
+				<option>Stu</option>
+			</select>
+		<div id="pastExp">
+			<span>Past Experience</span>
+			<textarea id="pastExperience"></textarea>
+		</div>
+	</div>
+	<div><button>Save Draft</button><button type="submit">Submit</button>
+
+
+</body>
+</html>
