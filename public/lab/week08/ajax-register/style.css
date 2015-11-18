@@ -1,0 +1,16 @@
+#registration-page {
+	display:block;
+}
+
+#login-page {
+	display:none;
+}
+
+#home-page {
+	display:none;
+}
+
+#error-reg, #error-login {
+	display:none;
+	color:red;
+}
