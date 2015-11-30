@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bootstrap Responsive Exercise">
+    <meta name="author" content="Benson Lam">
+		<title>Benson Lam : FEWD20 : Final Assignment: LiquidLab</title>
+		<link rel="shortcut icon" href="img/bl-favicon.png" />
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- Adobe CC Typekit -->
+		<script src="https://use.typekit.net/okl6yzk.js"></script>
+		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+<body>
+	<div class="container col-xs-12">
+	<!-- Navigation -->
+    <nav class="navbar transparent navbar-inverse navbar-fixed-top nav-down" role="navigation">
+        <div class="col-xs-12">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header nav-down">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span class="logo">L</span>iquidLab</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#">MENU</a>
+                    </li>
+                    <li>
+                        <a href="#">BLOG</a>
+                    </li>
+                    <li>
+                        <a href="#" class="accent1">ORDER</a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#myModal-signup">SIGN UP</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+		<div id="hero1" class="hero-image img-responsive">
+			<h1 class="hero1">Taste true wellness.</h1>
+			<h3 class="hero1">Better nutrition. Better life. Tailored for you.</h3>
+			<img class="arrow-down" />
+		</div>
+		<div class="clearfix"></div>
+
+		<!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container nutrition nutrition-desktop">
+			<h3>Nutritional information for ingredients in season this month.</h3>
+    	<div class="row">
+        <div class="col-sm-4 nutrition-info ingredient-left">
+          <img class="img-circle img-responsive center-block" id="ingredient1-image" width="140" height="140">
+          <h2 class="ingredient">RASPBERRIES</h2>
+          <p>Raspberries have significantly high levels of phenolic flavonoid phytochemicals such as anthocyanins, ellagic acid (tannin), quercetin, gallic acid, cyanidins, pelargonidins, catechins, kaempferol and salicylic acid. Scientific studies ...</p>
+          <div class="readmore accent1" data-toggle="modal" data-target="#myModal1">read more &raquo;</div>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-sm-4 nutrition-info ingredient-center">
+          <img class="img-circle img-responsive center-block" id="ingredient2-image" width="140" height="140">
+          <h2 class="ingredient ing2">POMEGRANATE</h2>
+          <p class="ing2">Organic pomegranates are full of antioxidants. These are compounds and enzymes known for keeping low-density lipoprotein (LDL) or “bad” cholesterol from oxidizing and causing atherosclerosis, or hardening of the arteries. Organic ...</p>
+          <div class="readmore accent1" data-toggle="modal" data-target="#myModal2">read more &raquo;</div>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-sm-4 nutrition-info ingredient-right">
+          <img class="img-circle img-responsive center-block" id="ingredient3-image" width="140" height="140">
+          <h2 class="ingredient ing3">BLUEBERRIES</h2>
+          <p class="ing3">Forget carrots. The humble blueberry has high levels of anthocyanin thanks to its blue skin. This wonder compound is linked to a reduction in eyestrain, improved night vision and an improved ability for the eye to adjust to glare and ...</p>
+          <div class="readmore accent1" data-toggle="modal" data-target="#myModal3">read more &raquo;</div>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+		</div>
+
+		<!-- Ingredient 1 Modal -->
+		<div id="myModal1" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">RASPBERRIES</h4>
+		      </div>
+		      <div class="modal-body row">
+		      	<img class="img-circle col-sm-4" id="ingredient1-modal-image">
+			        <div class="ingredient1-modal-desc col-sm-8">Raspberries have significantly high levels of phenolic flavonoid phytochemicals such as anthocyanins, ellagic acid (tannin), quercetin, gallic acid, cyanidins, pelargonidins, catechins, kaempferol and salicylic acid. Scientific studies show that the antioxidant compounds in these berries play potential role against cancer, aging, inflammation, and neuro-degenerative diseases.
+		        	</div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+
+		  </div>
+		</div>
+		<!-- Ingredient 2 Modal -->
+		<div id="myModal2" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">POMEGRANATE</h4>
+		      </div>
+		      <div class="modal-body row">
+		        <img class="img-circle col-sm-4" id="ingredient2-modal-image">
+		        <div class="ingredient2-modal-desc col-sm-8">Organic pomegranates are full of antioxidants. These are compounds and enzymes known for keeping low-density lipoprotein (LDL) or “bad” cholesterol from oxidizing and causing atherosclerosis, or hardening of the arteries. Organic pomegranate seeds likeaspirin, keeping blood platelets from sticking together and forming dangerous blood clots.</div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+
+		  </div>
+		</div>
+
+		<!-- Ingredient 3 Modal -->
+		<div id="myModal3" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title">BLUEBERRIES</h4>
+		      </div>
+		      <div class="modal-body row">
+		      	<img class="img-circle col-sm-4" id="ingredient3-modal-image">
+		        <div class="ingredient3-modal-desc col-sm-8">
+		        	<p>Forget carrots. The humble blueberry has high levels of anthocyanin thanks to its blue skin. This wonder compound is linked to a reduction in eyestrain, improved night vision and an improved ability for the eye to adjust to glare and sudden changes in lighting.</p> 
+		        	<p>Blueberries are also found to reduce the risk of age-related macular degeneration, helping to protect eyesight by accelerating the production of the aptly-named retinal purple – a substance critical for good vision.</p>
+	        	</div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<!-- SIGNUP Modal -->
+		<div id="myModal-signup" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h4 class="modal-title"><span class="highlight">S</span>IGN UP</h4>
+		      </div>
+		      <div class="modal-body row">
+		      	<form>
+			        <div class="form-group col-sm-8">
+			        	<label class="col-sm-3">Name:</label><span class="col-sm-9"><input type="text" class="form-control" name="name" placeholder="Your name"/></span>
+			        	<label class="col-sm-3">Email:</label><span class="col-sm-9"><input type="email" class="form-control" name="email" placeholder="Your email address"/></span>
+			        	<label class="col-sm-3">Password:</label><span class="col-sm-9"><input type="password" class="form-control" name="password"/></span>
+		        	</div>
+	        		<button type="submit" class="btn btn-default">Submit</button>
+        		</form>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="clearfix"></div>
+		<!-- HERO IMAGE 2 -->
+		<div id="hero2" class="hero-image"></div>
+		
+		<div class="clearfix"></div>
+		<!-- BLOG -->
+		<div class="container">
+			<h2><span class="highlight">B</span>LOG</h2>
+			<div id="blog" class="row">
+				<div class="col-md-4"><img class="blog" id="blog1"/></div>
+				<div class="col-md-4"><img class="blog" id="blog2"/></div>
+				<div class="col-md-4"><img class="blog" id="blog3"/></div>
+			</div>
+			<div id="blog" class="row">
+				<div class="col-md-4"><img class="blog" id="blog4"/></div>
+				<div class="col-md-4"><img class="blog" id="blog5"/></div>
+				<div class="col-md-4"><img class="blog" id="blog6"/></div>
+			</div>
+		</div>
+		
+		<div class="clearfix"></div>
+		
+		<div class="container">
+			<div id="how" class="row">
+				<div class="cta col-md-6" id="menu">
+					<h2><span class="highlight">M</span>ENU</h2>
+				</div>
+				<div class="cta col-md-6" id="customise">
+					<h2><span class="highlight">C</span>USTOMISE</h2>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		
+		<!-- HERO IMAGE 3 -->
+		<div id="hero3" class="hero-image">
+			<div class="hero3label">
+				<h2>Find us here. <img class="icon" id="locate-ico" title="locate" /></h2>
+			</div>
+		</div>
+		
+		<!-- FOOTER -->
+		<div class="container footer">
+			<div class="row">
+				<div class="col-md-12">
+					<a href=""><img class="socialmedia icon" id="twitter-ico" alt="twitter-icon" title="twitter" /></a>
+					<a href=""><img class="socialmedia icon" id="fb-ico" alt="facebook-icon" title="facebook" /></a>
+					<a href=""><img class="socialmedia icon" id="google-ico" alt="googleplus-icon" title="google+"></a>
+					<a href=""><img class="socialmedia icon" id="insta-ico" alt="instagram-icon" title="instagram"></a>
+					<a href=""><img class="socialmedia icon" id="pinterest-ico" alt="pinterest-icon" title="pinterest"></a>
+					<a href=""><img class="socialmedia icon" id="email-ico" alt="email-icon" title="email"></a>
+					<a href=""><img class="socialmedia icon" id="phone-ico" alt="phone" title="phone"></a>
+				</div>
+			</div>
+			<div class="row" id="address">
+				<div class="col-sm-12">123 OXFORD STREET BONDI JUNCTION NSW 2022 AUSTRALIA +61-2-9876-1111</div>
+			</div>
+			<div class="row" id="copyright">&copy; BL DESIGN.</div>
+		</div>	
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

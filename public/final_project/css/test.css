@@ -1,0 +1,9 @@
+#hero1 {
+	background: url(../img/hero1-640px.png) no-repeat center center;
+	height: 768px;
+}
+
+img {
+	width: 144px;
+	align: middle;
+}
