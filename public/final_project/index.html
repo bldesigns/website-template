@@ -16,246 +16,215 @@
 </head>
 <body>
 	<div class="container col-xs-12">
-	<!-- Navigation -->
-    <nav class="navbar transparent navbar-inverse navbar-fixed-top nav-down" role="navigation">
-        <div class="col-xs-12">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header nav-down">
-                <button type="button" class="navbar-toggle navicon-button x" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><span class="logo">L</span>iquidLab</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right navbar-bg">
-                    <li>
-                        <a href="#">ABOUT</a>
-                    </li>
-                    <li>
-                        <a href="#">MENU</a>
-                    </li>
-                    <li>
-                        <a href="#">BLOG</a>
-                    </li>
-                    <li>
-                        <a href="#" class="accent1">ORDER</a>
-                    </li>
-                    <li>
-                        <a href="#" data-toggle="modal" data-target="#myModal-signup">SIGN UP</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+		<!-- Navigation -->
+	<div id="navigation"></div>
 
-		<div id="hero1" class="hero-image img-responsive">
-			<h1 class="hero1">Taste true wellness.</h1>
-			<h3 class="hero1">Better nutrition. Better life. Tailored for you.</h3>
-			<img class="arrow-down center-block" />
-		</div>
-		<div class="clearfix"></div>
+	<!-- **************** HERO 1 ****************** -->
+	<div id="hero1" class="hero-image img-responsive">
+		<h1>Taste true wellness.</h1>
+		<h3>Better nutrition. Better life. Tailored for you.</h3>
+		<img class="arrow-down center-block" />
+	</div>
+	<span id="logo"></span>
+	<div class="clearfix"></div>
 
-		<!-- Wrap the rest of the page in another container to center all the content. -->
+	<!-- **************** NUTRITION INFO ****************** -->
     <div class="container nutrition nutrition-desktop">
 			<h3>Nutritional information for ingredients in season this month.</h3>
     	<div class="row">
-        <div class="col-sm-4 nutrition-info ingredient-left">
-          <img class="img-circle img-responsive center-block" id="ingredient1-image" width="140" height="140">
-          <h2 class="ingredient">RASPBERRIES</h2>
-          <p>Raspberries have significantly high levels of phenolic flavonoid phytochemicals such as anthocyanins, ellagic acid (tannin), quercetin, gallic acid, cyanidins, pelargonidins, catechins, kaempferol and salicylic acid. Scientific studies ...</p>
-          <div class="readmore accent1" data-toggle="modal" data-target="#myModal1">read more &raquo;</div>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-sm-4 nutrition-info ingredient-center">
-          <img class="img-circle img-responsive center-block" id="ingredient2-image" width="140" height="140">
-          <h2 class="ingredient ing2">POMEGRANATE</h2>
-          <p class="ing2">Organic pomegranates are full of antioxidants. These are compounds and enzymes known for keeping low-density lipoprotein (LDL) or “bad” cholesterol from oxidizing and causing atherosclerosis, or hardening of the arteries. Organic ...</p>
-          <div class="readmore accent1" data-toggle="modal" data-target="#myModal2">read more &raquo;</div>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-sm-4 nutrition-info ingredient-right">
-          <img class="img-circle img-responsive center-block" id="ingredient3-image" width="140" height="140">
-          <h2 class="ingredient ing3">BLUEBERRIES</h2>
-          <p class="ing3">Forget carrots. The humble blueberry has high levels of anthocyanin thanks to its blue skin. This wonder compound is linked to a reduction in eyestrain, improved night vision and an improved ability for the eye to adjust to glare and ...</p>
-          <div class="readmore accent1" data-toggle="modal" data-target="#myModal3">read more &raquo;</div>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-		</div>
+	        <div class="col-xs-4 nutrition-info ingredient-left">
+	        	<img class="img-circle img-responsive center-block" id="ingredient1-image" width="140" height="140">
+	         	<h2 class="ingredient">RASPBERRIES</h2>
+	         	<p>Raspberries have significantly high levels of phenolic flavonoid phytochemicals such as anthocyanins, ellagic acid (tannin), quercetin, gallic acid, cyanidins, pelargonidins, catechins, kaempferol and salicylic acid. Scientific studies ...</p>
+	         	<div class="readmore accent1" data-toggle="modal" data-target="#myModal1">read more &raquo;</div>
+	        </div><!-- /.col-lg-4 -->
+	        <div class="col-xs-4 nutrition-info ingredient-center">
+	         	<img class="img-circle img-responsive center-block" id="ingredient2-image" width="140" height="140">
+	        	<h2 class="ingredient ing2">POMEGRANATE</h2>
+	        	<p class="ing2">Organic pomegranates are full of antioxidants. These are compounds and enzymes known for keeping low-density lipoprotein (LDL) or “bad” cholesterol from oxidizing and causing atherosclerosis, or hardening of the arteries. Organic ...</p>
+	         	<div class="readmore accent1" data-toggle="modal" data-target="#myModal2">read more &raquo;</div>
+	        </div><!-- /.col-lg-4 -->
+	        <div class="col-xs-4 nutrition-info ingredient-right">
+	         	<img class="img-circle img-responsive center-block" id="ingredient3-image" width="140" height="140">
+	         	<h2 class="ingredient ing3">BLUEBERRIES</h2>
+	         	<p class="ing3">Forget carrots. The humble blueberry has high levels of anthocyanin thanks to its blue skin. This wonder compound is linked to a reduction in eyestrain, improved night vision and an improved ability for the eye to adjust to glare and ...</p>
+	         	<div class="readmore accent1" data-toggle="modal" data-target="#myModal3">read more &raquo;</div>
+	        </div><!-- /.col-lg-4 -->
+      	</div><!-- /.row -->
+	</div><!-- /. container nutrition -->
 
-		<!-- Ingredient 1 Modal -->
-		<div id="myModal1" class="modal fade" role="dialog">
-		  <div class="modal-dialog">
+	<!-- NUTRITION MODAL -->
+	<!-- Ingredient 1 Modal -->
+	<div id="myModal1" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+
+	    	<!-- Modal content-->
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+		        	<h3 class="modal-title">RASPBERRIES</h3>
+		      	</div>
+		      	<div class="modal-body row">
+	      			<img class="img-circle col-sm-4" id="ingredient1-modal-image">
+		        	<div class="ingredient1-modal-desc col-sm-8">Raspberries have significantly high levels of phenolic flavonoid phytochemicals such as anthocyanins, ellagic acid (tannin), quercetin, gallic acid, cyanidins, pelargonidins, catechins, kaempferol and salicylic acid. Scientific studies show that the antioxidant compounds in these berries play potential role against cancer, aging, inflammation, and neuro-degenerative diseases.
+	        		</div>
+	      		</div>
+	      		<div class="modal-footer">
+	        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      		</div>
+    		</div> <!-- /. modal-content -->
+	  	</div><!-- /. modal-dialog -->
+	</div><!-- /. myModal1 -->
+
+	<!-- Ingredient 2 Modal -->
+	<div id="myModal2" class="modal fade" role="dialog">
+	  	<div class="modal-dialog">
 
 		    <!-- Modal content-->
 		    <div class="modal-content">
-		      <div class="modal-header">
-		        <button type="button" class="close" data-dismiss="modal">&times;</button>
-		        <h4 class="modal-title">RASPBERRIES</h4>
-		      </div>
-		      <div class="modal-body row">
-		      	<img class="img-circle col-sm-4" id="ingredient1-modal-image">
-			        <div class="ingredient1-modal-desc col-sm-8">Raspberries have significantly high levels of phenolic flavonoid phytochemicals such as anthocyanins, ellagic acid (tannin), quercetin, gallic acid, cyanidins, pelargonidins, catechins, kaempferol and salicylic acid. Scientific studies show that the antioxidant compounds in these berries play potential role against cancer, aging, inflammation, and neuro-degenerative diseases.
+		      	<div class="modal-header">
+		        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+		        	<h3 class="modal-title">POMEGRANATE</h3>
+		      	</div>
+		      	<div class="modal-body row">
+		        	<img class="img-circle col-sm-4" id="ingredient2-modal-image">
+		        	<div class="ingredient2-modal-desc col-sm-8">Organic pomegranates are full of antioxidants. These are compounds and enzymes known for keeping low-density lipoprotein (LDL) or “bad” cholesterol from oxidizing and causing atherosclerosis, or hardening of the arteries. Organic pomegranate seeds likeaspirin, keeping blood platelets from sticking together and forming dangerous blood clots.
 		        	</div>
-		      </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		      </div>
-		    </div>
+	      		</div>
+			    <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			    </div>
+    		</div> <!-- /. modal-content -->
+	  	</div><!-- /. modal-dialog -->
+	</div><!-- /. myModal2 -->
 
-		  </div>
-		</div>
-		<!-- Ingredient 2 Modal -->
-		<div id="myModal2" class="modal fade" role="dialog">
-		  <div class="modal-dialog">
-
-		    <!-- Modal content-->
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <button type="button" class="close" data-dismiss="modal">&times;</button>
-		        <h4 class="modal-title">POMEGRANATE</h4>
-		      </div>
-		      <div class="modal-body row">
-		        <img class="img-circle col-sm-4" id="ingredient2-modal-image">
-		        <div class="ingredient2-modal-desc col-sm-8">Organic pomegranates are full of antioxidants. These are compounds and enzymes known for keeping low-density lipoprotein (LDL) or “bad” cholesterol from oxidizing and causing atherosclerosis, or hardening of the arteries. Organic pomegranate seeds likeaspirin, keeping blood platelets from sticking together and forming dangerous blood clots.</div>
-		      </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		      </div>
-		    </div>
-
-		  </div>
-		</div>
-
-		<!-- Ingredient 3 Modal -->
-		<div id="myModal3" class="modal fade" role="dialog">
-		  <div class="modal-dialog">
+	<!-- Ingredient 3 Modal -->
+	<div id="myModal3" class="modal fade" role="dialog">
+	  	<div class="modal-dialog">
 
 		    <!-- Modal content-->
 		    <div class="modal-content">
-		      <div class="modal-header">
-		        <button type="button" class="close" data-dismiss="modal">&times;</button>
-		        <h4 class="modal-title">BLUEBERRIES</h4>
-		      </div>
-		      <div class="modal-body row">
-		      	<img class="img-circle col-sm-4" id="ingredient3-modal-image">
-		        <div class="ingredient3-modal-desc col-sm-8">
+			    <div class="modal-header">
+			    	<button type="button" class="close" data-dismiss="modal">&times;</button>
+			    	<h3 class="modal-title">BLUEBERRIES</h3>
+			    </div>
+		    	<div class="modal-body row">
+		      		<img class="img-circle col-sm-4" id="ingredient3-modal-image">
+		        	<div class="ingredient3-modal-desc col-sm-8">
 		        	<p>Forget carrots. The humble blueberry has high levels of anthocyanin thanks to its blue skin. This wonder compound is linked to a reduction in eyestrain, improved night vision and an improved ability for the eye to adjust to glare and sudden changes in lighting.</p> 
 		        	<p>Blueberries are also found to reduce the risk of age-related macular degeneration, helping to protect eyesight by accelerating the production of the aptly-named retinal purple – a substance critical for good vision.</p>
-	        	</div>
-		      </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		      </div>
-		    </div>
-		  </div>
-		</div>
+	        		</div>
+		      	</div>
+		    	<div class="modal-footer">
+		        	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      	</div>
+    		</div> <!-- /. modal-content -->
+	  	</div><!-- /. modal-dialog -->
+	</div><!-- /. myModal3 -->
 
-		<!-- SIGNUP Modal -->
-		<div id="myModal-signup" class="modal fade" role="dialog">
-		  <div class="modal-dialog">
+	<!-- SIGNUP MODAL -->
+	<div id="signup-modal"></div>
 
-		    <!-- Modal content-->
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <button type="button" class="close" data-dismiss="modal">&times;</button>
-		        <h4 class="modal-title"><span class="highlight">S</span>IGN UP</h4>
-		      </div>
-		      <div class="modal-body row">
-		      	<form>
-			        <div class="form-group col-sm-8">
-			        	<label class="col-sm-3">Name:</label><span class="col-sm-9"><input type="text" class="form-control" name="name" placeholder="Your name"/></span>
-			        	<label class="col-sm-3">Email:</label><span class="col-sm-9"><input type="email" class="form-control" name="email" placeholder="Your email address"/></span>
-			        	<label class="col-sm-3">Password:</label><span class="col-sm-9"><input type="password" class="form-control" name="password"/></span>
-		        	</div>
-	        		<button type="submit" class="btn btn-default">Submit</button>
-        		</form>
-		      </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		      </div>
-		    </div>
-		  </div>
-		</div>
+	<!-- EMAIL MODAL -->
+	<div id="email-modal"></div>
 
-		<div class="clearfix"></div>
-		<!-- HERO IMAGE 2 -->
-		<div id="hero2" class="hero-image"></div>
-		
-		<div class="clearfix"></div>
-		<!-- BLOG -->
-		<div class="container">
-			<h2><span class="highlight">B</span>LOG</h2>
-			<div id="blog" class="row">
-				<div class="col-md-4">
-					<div><img class="blog" id="blog1"/></div>
-					<div class="blog-title">
-						<h3>MIND + BODY + SPIRIT</h3>
-						<p class="blog-auth">by Keerthi Srikantha - 22/11/15</p>
-						<p class="accent1">read more ></p>
-					</div>
+	<!-- HERO IMAGE 2 -->
+	<div id="hero2" class="hero-image">
+		<h1>High quality. Fresh ingredients.</h1>
+		<h3>Feed your body with whole foods and natural produce.</h3>
+	</div>
+	
+	<div class="clearfix"></div>
+	<!-- BLOG -->
+	<div class="container">
+		<h2><span class="highlight">B</span>LOG</h2>
+		<div id="blog" class="row">
+			<div class="col-md-4">
+				<a href="blog.html">
+				<div><img class="blog" id="blog1"/></div>
+				<div class="blog-title">
+					<h3>MIND + BODY + SPIRIT</h3>
+					<p class="blog-auth">by Keerthi Srikantha - 22/11/15</p>
+					<p class="accent1">read more ></p>
 				</div>
-				<hr class="blog-hr" hidden>
-				<div class="col-md-4">
-					<div><img class="blog" id="blog2"/></div>
-					<div class="blog-title">
-						<h3>RECIPE: FRESH TOMATO SOUP</h3>
-						<p class="blog-auth">by Jamie Oliver - 1/10/15</p>
-						<p class="accent1">read more ></p>
-					</div>
-				</div>
-				<hr class="blog-hr" hidden>
-				<div class="col-md-4">
-					<div><img class="blog" id="blog3"/></div>
-					<div class="blog-title">
-						<h3>BENEFITS OF YOGA</h3>
-						<p class="blog-auth">by Clarissa Lam - 23/11/15</p>
-						<p class="accent1">read more ></p>
-					</div>
-				</div>
+				</a>
+				<hr class="blog-hr">
 			</div>
-			<div id="blog" class="row">
-				<div class="col-md-4">
-					<div><img class="blog" id="blog4"/></div>
-					<div class="blog-title">
-						<h3>COLD PRESSED JUICES</h3>
-						<p class="blog-auth">by Cecilia Frisch - 2/11/15</p>
-						<p class="accent1">read more ></p>
-					</div>
+
+			<div class="col-md-4">
+				<a href="blog.html">
+				<div><img class="blog" id="blog2"/></div>
+				<div class="blog-title">
+					<h3>RECIPE: FRESH TOMATO SOUP</h3>
+					<p class="blog-auth">by Jamie Oliver - 1/10/15</p>
+					<p class="accent1">read more ></p>
 				</div>
-				<hr class="blog-hr" hidden>
-				<div class="col-md-4">
-					<div><img class="blog" id="blog5"/></div>
-					<div class="blog-title">
-						<h3>ORGANIC FRESH GREENS</h3>
-						<p class="blog-auth">by Evan Bonser - 2/11/15</p>
-						<p class="accent1">read more ></p>
-					</div>
+				</a>
+				<hr class="blog-hr" />
+			</div>
+			
+
+			<div class="col-md-4">
+				<a href="blog.html">
+				<div><img class="blog" id="blog3"/></div>
+				<div class="blog-title">
+					<h3>BENEFITS OF YOGA</h3>
+					<p class="blog-auth">by Clarissa Lam - 23/11/15</p>
+					<p class="accent1">read more ></p>
 				</div>
-				<hr class="blog-hr" hidden>
-				<div class="col-md-4">
-					<div><img class="blog" id="blog6"/></div>
-					<div class="blog-title">
-						<h3>START YOUR MORNING WITH A SMOOTHIE</h3>
-						<p class="blog-auth">by Vineetha Reddy - 14/10/15</p>
-						<p class="accent1">read more ></p>
-					</div>
-				</div>
+				</a>
+				<hr class="blog-hr">
 			</div>
 		</div>
+
+		<div id="blog" class="row">
+			<div class="col-md-4">
+				<a href="blog.html">
+				<div><img class="blog" id="blog4"/></div>
+				<div class="blog-title">
+					<h3>COLD PRESSED JUICES</h3>
+					<p class="blog-auth">by Cecilia Frisch - 2/11/15</p>
+					<p class="accent1">read more ></p>
+				</div>
+				</a>
+				<hr class="blog-hr">
+			</div>
+			
+			<div class="col-md-4">
+				<a href="blog.html">
+				<div><img class="blog" id="blog5"/></div>
+				<div class="blog-title">
+					<h3>ORGANIC FRESH GREENS</h3>
+					<p class="blog-auth">by Evan Bonser - 2/11/15</p>
+					<p class="accent1">read more ></p>
+				</div>
+				</a>
+				<hr class="blog-hr">
+			</div>
+			
+			<div class="col-md-4">
+				<a href="blog.html">
+				<div><img class="blog" id="blog6"/></div>
+				<div class="blog-title">
+					<h3>START YOUR MORNING WITH A SMOOTHIE</h3>
+					<p class="blog-auth">by Vineetha Reddy - 14/10/15</p>
+					<p class="accent1">read more ></p>
+				</div>
+				</a>
+				<hr class="blog-hr">
+			</div>
+		</div>
+	</div>
 		
 		<div class="clearfix"></div>
 		
 		<div class="container">
 			<div id="how" class="row">
 				<div class="cta col-md-6" id="menu">
-					<h2><span class="highlight">M</span>ENU</h2>
+					<h2 class="cta-title"><span class="highlight">M</span>ENU</h2>
 				</div>
 				<div class="cta col-md-6" id="customise">
-					<h2><span class="highlight">C</span>USTOMISE</h2>
+					<h2 class="cta-title"><span class="highlight">C</span>USTOMISE</h2>
 				</div>
 			</div>
 		</div>
@@ -264,21 +233,44 @@
 		<!-- HERO IMAGE 3 -->
 		<div id="hero3" class="hero-image">
 			<div class="hero3label">
-				<h2>Find us here. <img class="icon" id="locate-ico" title="locate" /></h2>
+				<a href="#myModal-locate" class="hero3label" data-toggle="modal"><h2>Find us here. <img class="icon" id="locate-ico" title="locate"/></h2></a>
 			</div>
 		</div>
 		
+		<div class="modal fade" id="myModal-locate">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-header">
+		                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		                <h4 class="modal-title">Find us here.</h4>
+		            </div>
+		            <div class="modal-body">
+		                <div class="container">
+		                    <div class="row">
+		                        <div id="map-canvas" class="col-xs-10"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.3965857389444!2d151.21324875101365!3d-33.879438680558266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae1749142947%3A0xf84dbaec88ea7d8d!2s123+Oxford+St%2C+Darlinghurst+NSW+2010!5e0!3m2!1sen!2sau!4v1448976275161" frameborder="0" style="border:0" id="map"allowfullscreen></iframe>
+								</div>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="modal-footer">
+		                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		            </div>
+		        </div><!-- /.modal-content -->
+		    </div><!-- /.modal-dialog -->
+	    </div><!-- /.modal -->
+
+
 		<!-- FOOTER -->
 		<div class="container footer">
 			<div class="row">
 				<div class="col-md-12">
-					<a href=""><img class="socialmedia icon" id="twitter-ico" alt="twitter-icon" title="twitter" /></a>
-					<a href=""><img class="socialmedia icon" id="fb-ico" alt="facebook-icon" title="facebook" /></a>
-					<a href=""><img class="socialmedia icon" id="google-ico" alt="googleplus-icon" title="google+"></a>
-					<a href=""><img class="socialmedia icon" id="insta-ico" alt="instagram-icon" title="instagram"></a>
-					<a href=""><img class="socialmedia icon" id="pinterest-ico" alt="pinterest-icon" title="pinterest"></a>
-					<a href=""><img class="socialmedia icon" id="email-ico" alt="email-icon" title="email"></a>
-					<a href=""><img class="socialmedia icon" id="phone-ico" alt="phone" title="phone"></a>
+					<a href="http://www.twitter.com/"><img class="socialmedia icon" id="twitter-ico" alt="twitter-icon" title="twitter" /></a>
+					<a href="http://www.facebook.com/"><img class="socialmedia icon" id="fb-ico" alt="facebook-icon" title="facebook" /></a>
+					<a href="http://plus.google.com/"><img class="socialmedia icon" id="google-ico" alt="googleplus-icon" title="google+"></a>
+					<a href="http://instagram.com/"><img class="socialmedia icon" id="insta-ico" alt="instagram-icon" title="instagram"></a>
+					<a href="http://www.pinterest.com/"><img class="socialmedia icon" id="pinterest-ico" alt="pinterest-icon" title="pinterest"></a>
+					<img class="socialmedia icon" id="email-ico" alt="email-icon" title="email" data-toggle="modal" data-target="#myModal-email">
+					<a href="tel:+61298761111"><img class="socialmedia icon" id="phone-ico" alt="phone" title="phone"></a>
 				</div>
 			</div>
 			<div class="row" id="address">
@@ -290,5 +282,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/map.js"></script>
 </body>
 </html>

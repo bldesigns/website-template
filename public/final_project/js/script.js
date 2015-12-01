@@ -1,4 +1,10 @@
+// pages
+var navigationPage = "navigation.html";
+var signupModal = "signup.html";
+var emailModal = "email.html";
+
 // images & icons
+var logo = "img/liquidlab-logo.svg";
 var arrowDown = "img/arrow-down-512px.svg";
 
 var locateImg = "img/purple-locate.svg";
@@ -20,6 +26,9 @@ var blog3Img = "img/blog3.png";
 var blog4Img = "img/blog4.png";
 var blog5Img = "img/blog5.png";
 var blog6Img = "img/blog6.png";
+var blogPageArticle1Img = "img/bodymindspirit-blog.jpg";
+
+var aboutImg = "img/about.jpg";
 
 // Hide Header on on scroll down
 var didScroll;
@@ -63,6 +72,13 @@ function hasScrolled() {
 }
 
 $().ready(function(){
+	//page imports
+	$('#navigation').load(navigationPage);
+	$('#signup-modal').load(signupModal);
+	$('#email-modal').load(emailModal);
+
+	$('#about-image').attr("src",aboutImg);
+	$('#logo').attr("src",logo);
 	$('.arrow-down').attr("src",arrowDown);
 	//ingredient images
 	$('#ingredient1-image').attr("src",ingredient1Img);
@@ -89,8 +105,6 @@ $().ready(function(){
 	$('#blog4').attr("src",blog4Img);
 	$('#blog5').attr("src",blog5Img);
 	$('#blog6').attr("src",blog6Img);
-
-	if($(window).width() < 568){
-  		$('.blog-hr').show();
-	}
+	$('#blog6').attr("src",blog6Img);
+	$('#blog-page-article1').attr("src",blogPageArticle1Img);
 });
