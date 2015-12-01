@@ -89,4 +89,12 @@ $().ready(function(){
 	$('#blog4').attr("src",blog4Img);
 	$('#blog5').attr("src",blog5Img);
 	$('#blog6').attr("src",blog6Img);
-})
+
+	if($(window).width() < 568){
+  		$('.blog-hr').show();
+	}
+});
+
+$('.navbar-toggle').click(function(){
+  $(this).toggleClass("open");
+});
