@@ -384,11 +384,11 @@ $content-bg : #E7E6DD;
   	background-size: cover;
   }
   #hero2 { 
-    background: url(../img/hero2.jpg) no-repeat center center; 
+    background: url(../img/hero2-desktop.jpg) no-repeat center center; 
     background-size: cover;
   }
   #hero3 { 
-    background: url(../img/hero3.jpg) no-repeat center center; 
+    background: url(../img/hero3-desktop.jpg) no-repeat center center; 
     background-size: cover;
   }
   #menu {

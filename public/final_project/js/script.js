@@ -1,25 +1,25 @@
 // images & icons
 var arrowDown = "img/arrow-down-512px.svg";
 
-var locateImg = "img/Purple-locate.svg";
-var twitterImg = "img/Purple-twitter.svg";
-var facebookImg = "img/Purple-FB.svg";
-var instagramImg = "img/Purple-instagram.svg";
-var googleImg = "img/Purple-google.svg";
-var pinterestImg = "img/Purple-pinterest.svg";
-var emailImg = "img/Purple-email.svg";
-var phoneImg = "img/Purple-phone.svg";
+var locateImg = "img/purple-locate.svg";
+var twitterImg = "img/purple-twitter.svg";
+var facebookImg = "img/purple-fb.svg";
+var instagramImg = "img/purple-instagram.svg";
+var googleImg = "img/purple-google.svg";
+var pinterestImg = "img/purple-pinterest.svg";
+var emailImg = "img/purple-email.svg";
+var phoneImg = "img/purple-phone.svg";
 
 var ingredient1Img = "img/raspberries.png";
 var ingredient2Img = "img/pomegranate.png";
 var ingredient3Img = "img/blueberries.png";
 
-var blog1Img = "img/Blog1.png";
-var blog2Img = "img/Blog2.png";
-var blog3Img = "img/Blog3.png";
-var blog4Img = "img/Blog4.png";
-var blog5Img = "img/Blog5.png";
-var blog6Img = "img/Blog6.png";
+var blog1Img = "img/blog1.png";
+var blog2Img = "img/blog2.png";
+var blog3Img = "img/blog3.png";
+var blog4Img = "img/blog4.png";
+var blog5Img = "img/blog5.png";
+var blog6Img = "img/blog6.png";
 
 // Hide Header on on scroll down
 var didScroll;
@@ -93,8 +93,4 @@ $().ready(function(){
 	if($(window).width() < 568){
   		$('.blog-hr').show();
 	}
-});
-
-$('.navbar-toggle').click(function(){
-  $(this).toggleClass("open");
 });
