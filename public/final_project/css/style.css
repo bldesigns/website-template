@@ -81,15 +81,22 @@ h2.ingredient {
 /*----------
 POSITIONING
 -----------*/
+#hero1 {
+}
+
 h1.hero1 {
 	margin-top: 0px;
-	padding-top: 250px;	
-}
-
-h3.hero1 {
 	padding-top: 250px;
 }
-
+h3.hero1 {
+	padding-top: 230px;
+}
+.arrow-down {
+	opacity: 0.3;
+	padding-top: 110px;
+	margin-left: auto;
+	margin-right: auto;
+}
 .hero3label {
 	padding-top: 525px;
 	margin: auto;
