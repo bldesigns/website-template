@@ -9,6 +9,7 @@ BASE STYLES
 }
 .container {
 	padding: 0px;
+	min-width: 568px;
 }
 a {
 	color: #FFFFFF;
@@ -243,7 +244,6 @@ ul.nav a:hover {
 a.nav:hover {
 	color: #BFAE8D;
 }
-
 .blog-list-old-articles a:hover {
 	color: #fff;
 	font-style: normal;
@@ -272,6 +272,13 @@ a.nav:hover {
 	-webkit-box-shadow: 0 0 10px rgba(255,255,255,1);
 	box-shadow: 0 0 10px rgba(255,255,255,1);
 }
+p.blog-auth:hover {
+	color: #BFAE8D;
+}
+p.blog-auth:active {
+	color: #fff;
+}
+
 .blog-hr {
     border: 0;
     height: 1px;
@@ -359,7 +366,11 @@ $content-bg : #E7E6DD;
 @media only screen and (max-width : 568px) { /* STYLES GO HERE */
 	#hero1 {
 		background: url(../img/hero1-640px.png) no-repeat center left;
-		background-image: 100% 100%;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		/*background-image: 100% 100%;*/
 	}
 	#hero2 {
 		background: url(../img/hero2-640px.png) no-repeat center left;
@@ -371,7 +382,7 @@ $content-bg : #E7E6DD;
 	}
 	.nutrition-info {
 		padding: 0px;
-		margin-left: 10%;
+		margin-left: 20%;
 	}
 	h3.nutrition {
 		margin-left: 10%;
@@ -430,7 +441,7 @@ $content-bg : #E7E6DD;
 		height: 300px;
 	}
 	.modal-body .img-circle {
-		margin-left: 20%;
+
 	}
 	.article {
 		padding-left: 5%;
